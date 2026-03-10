@@ -342,7 +342,7 @@ main() {
   echo -e "${BOLD}${BLUE}"
   echo "  ╔════════════════════════════════════════╗"
   echo "  ║     MongoDB Sync Tool — MwSpace LLC    ║"
-  echo "  ║              v${SCRIPT_VERSION}                     ║"
+  echo "  ║              v${SCRIPT_VERSION}                    ║"
   echo "  ╚════════════════════════════════════════╝"
   echo -e "${NC}"
 
