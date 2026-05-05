@@ -232,9 +232,9 @@ _prompt_read() {
   local result
 
   if [[ -n "$default" ]]; then
-    read -rp "  ${label} [${default}]: " result
+    read -rp "  ${label} [${default}]: " result </dev/tty
   else
-    read -rp "  ${label}: " result
+    read -rp "  ${label}: " result </dev/tty
   fi
 
   echo "${result:-$default}"
